@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :root {
+        /* Tema claro (Padrão)*/
+        --primary-light: 360deg 100% 50%;
+        --primary-default: 360deg 100% 50%;
+        --primary-dark: 360deg 100% 50%;
+        --secondary-light: 360deg 100% 50%;
+        --secondary-default: 360deg 100% 50%;
+        --secondary-dark: 360deg 100% 50%;
+        --neutral-light: 360deg 100% 50%;
+        --neutral-default: 360deg 100% 50%;
+        --neutral-dark: 360deg 100% 50%;
+        --text-light: 360deg 100% 50%;
+        --text-default: 360deg 100% 50%;
+        --text-dark: 360deg 100% 50%;
+        --background-light: 360deg 100% 50%;
+        --background-default: 360deg 100% 50%;
+        --background-dark: 360deg 100% 50%;
+    }
+    
+    [data-theme="dark"] {
+        /* Tema escuro */
+        --primary-light: 360deg 100% 50%;
+        --primary-default: 360deg 100% 50%;
+        --primary-dark: 360deg 100% 50%;
+        --secondary-light: 360deg 100% 50%;
+        --secondary-default: 360deg 100% 50%;
+        --secondary-dark: 360deg 100% 50%;
+        --neutral-light: 360deg 100% 50%;
+        --neutral-default: 360deg 100% 50%;
+        --neutral-dark: 360deg 100% 50%;
+        --text-light: 360deg 100% 50%;
+        --text-default: 360deg 100% 50%;
+        --text-dark: 360deg 100% 50%;
+        --background-light: 360deg 100% 50%;
+        --background-default: 360deg 100% 50%;
+        --background-dark: 360deg 100% 50%;
+    }
+}
